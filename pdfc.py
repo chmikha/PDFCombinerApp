@@ -2,7 +2,7 @@ import os
 import sys
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QPushButton, QVBoxLayout, QHBoxLayout,
                              QWidget, QFileDialog, QListWidget, QLabel, QMessageBox, QLineEdit)
-from PyQt5.QtCore import Qt, QMimeData
+from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon, QFont
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
